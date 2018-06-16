@@ -1,0 +1,30 @@
+{
+  "name": "mdt",
+  "version": "1.0.0",
+  "description": "an command-line interface for marked-terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mdt": "./mdt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzusime/mdt.git"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "suzusime",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suzusime/mdt/issues"
+  },
+  "homepage": "https://github.com/suzusime/mdt#readme",
+  "dependencies": {
+    "get-stdin": "^6.0.0",
+    "marked": "^0.4.0",
+    "marked-terminal": "^3.0.0"
+  }
+}
