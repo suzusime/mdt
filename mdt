@@ -1,2 +1,2 @@
 #!/bin/sh
-FORCE_COLOR=1 node $(dirname $0)/index.js "$*"
+FORCE_COLOR=1 node $(dirname `realpath $0`)/index.js "$*"
